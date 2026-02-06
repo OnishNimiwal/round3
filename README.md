@@ -105,6 +105,20 @@ A comprehensive platform for citizens to report civic issues, track their resolu
 - `POST /api/chatbot` - Chat with AI bot
 - `PUT /api/admin/issues/:id` - Update issue status (Admin only)
 
+## Deployment
+
+For detailed deployment instructions to Vercel, see:
+- **[QUICK_DEPLOY.md](./QUICK_DEPLOY.md)** - Fast deployment guide (recommended)
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Comprehensive deployment guide with all options
+
+### Quick Start Deployment
+
+1. **Frontend**: Deploy to Vercel (Next.js optimized)
+2. **Backend**: Deploy to Railway or Render (Express.js friendly)
+3. **Database**: Use MongoDB Atlas (free tier available)
+
+See the deployment guides for step-by-step instructions.
+
 ## License
 
 MIT

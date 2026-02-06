@@ -4,6 +4,22 @@
 
 ### Step 1: Deploy Frontend to Vercel (5 minutes)
 
+**Option A: Via Vercel Dashboard (Easier)**
+
+1. Go to [Vercel Dashboard](https://vercel.com/dashboard)
+2. Click **Add New** → **Project**
+3. Import your GitHub repository
+4. **Configure Project:**
+   - **Root Directory**: Set to `frontend` (click Edit)
+   - **Framework Preset**: Select **"Next.js"** (should auto-detect)
+   - **Build Command**: `npm run build` (auto-filled)
+   - **Output Directory**: `.next` (auto-filled)
+5. Add Environment Variable:
+   - `NEXT_PUBLIC_API_URL` = `https://your-backend-url.railway.app/api`
+6. Click **Deploy**
+
+**Option B: Via Vercel CLI**
+
 1. **Install Vercel CLI:**
    ```bash
    npm install -g vercel
@@ -25,7 +41,10 @@
    - Which scope? (select your account)
    - Link to existing project? **N**
    - Project name? **civic-issue-frontend**
+   - Directory? **./** (current directory)
    - Override settings? **N**
+   
+   **Note**: Vercel will auto-detect Next.js framework preset.
 
 4. **Set Environment Variable:**
    - Go to [Vercel Dashboard](https://vercel.com/dashboard)

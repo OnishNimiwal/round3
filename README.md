@@ -107,14 +107,19 @@ A comprehensive platform for citizens to report civic issues, track their resolu
 
 ## Deployment
 
-For detailed deployment instructions to Vercel, see:
-- **[QUICK_DEPLOY.md](./QUICK_DEPLOY.md)** - Fast deployment guide (recommended)
-- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Comprehensive deployment guide with all options
+### Frontend (Vercel)
+- **[VERCEL_QUICK_FIX.md](./VERCEL_QUICK_FIX.md)** - Quick Vercel deployment
+- **[VERCEL_DEPLOY.md](./VERCEL_DEPLOY.md)** - Detailed Vercel guide
+
+### Backend (Render)
+- **[RENDER_QUICK_START.md](./RENDER_QUICK_START.md)** - Fast Render deployment (5 min)
+- **[RENDER_DEPLOY.md](./RENDER_DEPLOY.md)** - Complete Render guide
+- **[RENDER_STEP_BY_STEP.md](./RENDER_STEP_BY_STEP.md)** - Step-by-step with details
 
 ### Quick Start Deployment
 
 1. **Frontend**: Deploy to Vercel (Next.js optimized)
-2. **Backend**: Deploy to Railway or Render (Express.js friendly)
+2. **Backend**: Deploy to Render (Express.js friendly) - **See RENDER_QUICK_START.md**
 3. **Database**: Use MongoDB Atlas (free tier available)
 
 See the deployment guides for step-by-step instructions.
